@@ -16,7 +16,7 @@ class TextField extends Component {
           style={styles.icon}
           name={this.getIcon()}
           size={20}
-          color="#000"
+          color="#8f8f91"
         />
         <TextInput
           style={styles.field}
