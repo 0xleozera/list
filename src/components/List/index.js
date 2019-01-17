@@ -28,9 +28,7 @@ class List extends Component {
     );
   };
 
-  renderSeparator = () => {
-    return <View style={styles.separator} />;
-  };
+  renderSeparator = () => <View style={styles.separator} />
 
   render() {
     const { data } = this.props;
