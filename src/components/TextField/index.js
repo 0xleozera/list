@@ -1,23 +1,19 @@
 import React, { Component } from "react";
-import { View, TextInput, Platform } from "react-native";
+import { View, TextInput } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 
 import colors from "../../assets/colors";
 import styles from "./styles";
 
 class TextField extends Component {
-  getIcon() {
-    return Platform.OS === "ios" ? "ios-search" : "md-search";
-  }
-
   render() {
-    const { onChange, value } = this.props;
+    const { onChange, value, icon } = this.props;
 
     return (
       <View style={styles.wrapper}>
         <Icon
           style={styles.icon}
-          name={this.getIcon()}
+          name={icon}
           size={20}
           color={colors.gray.dark}
         />

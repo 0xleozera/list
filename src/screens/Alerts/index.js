@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View } from "react-native";
+import { View, Platform } from "react-native";
 
 import ActorsData from "../../utils/data";
 import TextField from "../../components/TextField";
@@ -13,6 +13,8 @@ class AlertsScreen extends Component {
     data: ActorsData,
     value: ""
   };
+
+  getIcon = () => (Platform.OS === "ios" ? "ios-search" : "md-search");
 
   onChange = value =>
     this.setState({ value }, debounce(() => this.filterData(value)));
@@ -30,7 +32,11 @@ class AlertsScreen extends Component {
 
     return (
       <View style={styles.wrapper}>
-        <TextField value={value} onChange={value => this.onChange(value)} />
+        <TextField
+          value={value}
+          onChange={value => this.onChange(value)}
+          icon={this.getIcon()}
+        />
         <List data={data} />
       </View>
     );
