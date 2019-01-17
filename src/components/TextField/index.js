@@ -11,6 +11,8 @@ class TextField extends Component {
   }
 
   render() {
+    const { onChange, value } = this.props;
+
     return (
       <View style={styles.wrapper}>
         <Icon
@@ -21,7 +23,8 @@ class TextField extends Component {
         />
         <TextInput
           style={styles.field}
-          onChangeText={searchString => this.setState({ searchString })}
+          value={value}
+          onChangeText={value => onChange(value)}
           underlineColorAndroid="transparent"
         />
       </View>

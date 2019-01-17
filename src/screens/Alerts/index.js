@@ -13,7 +13,7 @@ class ActorsScreen extends Component {
   };
 
   render() {
-    const { data } = this.state;
+    const { data, value } = this.state;
 
     return (
       <View style={styles.wrapper}>
