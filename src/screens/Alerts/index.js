@@ -4,7 +4,9 @@ import { View } from "react-native";
 import ActorsData from "../../utils/data";
 import TextField from "../../components/TextField";
 import List from "../../components/List";
+
 import styles from "./styles";
+import debounce from "../../utils/debounce";
 
 class AlertsScreen extends Component {
   state = {
@@ -12,7 +14,16 @@ class AlertsScreen extends Component {
     value: ""
   };
 
-  onChange = value => this.setState({ value });
+  onChange = value =>
+    this.setState({ value }, debounce(() => this.filterData(value)));
+
+  filterData = value => {
+    const newData = ActorsData.filter(
+      item => item.name.toLowerCase().indexOf(value.toLowerCase()) === 0
+    );
+
+    this.setState({ data: newData });
+  };
 
   render() {
     const { data, value } = this.state;
