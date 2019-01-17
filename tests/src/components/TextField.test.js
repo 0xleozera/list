@@ -6,7 +6,7 @@ describe("[Component] TextField", () => {
   const props = {
     onChange: jest.fn(),
     value: "",
-    icon: ""
+    icon: "ios-search"
   };
 
   const tree = create(<TextField {...props} />);

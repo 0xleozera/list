@@ -36,7 +36,7 @@ exports[`[Component] TextField matches snapshot 1`] = `
       ]
     }
   >
-    
+    
   </Text>
   <TextInput
     allowFontScaling={true}
