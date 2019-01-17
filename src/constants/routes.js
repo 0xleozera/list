@@ -5,6 +5,8 @@ import Icon from "react-native-vector-icons/Ionicons";
 import HomeScreen from "../screens/Home";
 import AlertsScreen from "../screens/Alerts";
 
+import colors from "../assets/colors";
+
 const routes = {
   Home: {
     screen: HomeScreen,
@@ -18,9 +20,9 @@ const routes = {
     path: "/alerts",
     navigationOptions: {
       title: "Alertas",
-      headerTintColor: "#13827d",
+      headerTintColor: colors.green.dark,
       headerStyle: {
-        backgroundColor: "#1aafa9"
+        backgroundColor: colors.green.normal
       }
     }
   }

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, TextInput, Platform } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 
+import colors from "../../assets/colors";
 import styles from "./styles";
 
 class TextField extends Component {
@@ -16,7 +17,7 @@ class TextField extends Component {
           style={styles.icon}
           name={this.getIcon()}
           size={20}
-          color="#8f8f91"
+          color={colors.gray.dark}
         />
         <TextInput
           style={styles.field}
