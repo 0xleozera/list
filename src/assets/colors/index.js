@@ -1,8 +1,7 @@
 export default {
   green: {
     dark: "#13827D",
-    normal: "#1AAFA9",
-    light: ""
+    normal: "#1AAFA9"
   },
   gray: {
     dark: "#8F8F91",
