@@ -25,6 +25,9 @@
     "react-test-renderer": "16.6.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "/home/leonardorpr/Documentos/Projects/list/node_modules/react-native/jest/preprocessor.js"
+    }
   }
 }

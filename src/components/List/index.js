@@ -4,7 +4,11 @@ import { ListItem } from "react-native-elements";
 
 import styles from "./styles";
 
-class ListActor extends Component {
+class List extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   keyExtractor = item => item.id;
 
   renderItem = ({ item }) => {
@@ -44,4 +48,4 @@ class ListActor extends Component {
   }
 }
 
-export default ListActor;
+export default List;

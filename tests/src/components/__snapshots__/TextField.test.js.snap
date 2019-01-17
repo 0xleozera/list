@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TextField matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "marginTop": 10,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#8F8F91",
+          "fontSize": 20,
+        },
+        Object {
+          "backgroundColor": "#FFF",
+          "borderBottomLeftRadius": 8,
+          "borderColor": "#FFF",
+          "borderTopLeftRadius": 8,
+          "borderWidth": 1,
+          "height": 40,
+          "marginLeft": 10,
+          "padding": 10,
+        },
+        Object {
+          "fontFamily": "Ionicons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderBottomRightRadius": 8,
+        "borderColor": "#FFF",
+        "borderTopRightRadius": 8,
+        "borderWidth": 1,
+        "flex": 1,
+        "height": 40,
+        "marginRight": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 0,
+        "paddingRight": 10,
+        "paddingTop": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;

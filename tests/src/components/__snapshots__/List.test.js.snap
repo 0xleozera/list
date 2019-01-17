@@ -1,0 +1,2154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] List matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "description": "Ator, Diretor, Produtor",
+          "id": 1,
+          "name": "Brad Pitt",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+        },
+        Object {
+          "description": "Ator",
+          "id": 2,
+          "name": "Bradley Cooper",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+        },
+        Object {
+          "description": "Ator, Diretor, Produtor",
+          "id": 3,
+          "name": "Brad Pitt",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+        },
+        Object {
+          "description": "Ator",
+          "id": 4,
+          "name": "Bradley Cooper",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+        },
+        Object {
+          "description": "Ator, Diretor, Produtor",
+          "id": 5,
+          "name": "Brad Pitt",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+        },
+        Object {
+          "description": "Ator",
+          "id": 6,
+          "name": "Bradley Cooper",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+        },
+        Object {
+          "description": "Ator, Diretor, Produtor",
+          "id": 7,
+          "name": "Brad Pitt",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+        },
+        Object {
+          "description": "Ator",
+          "id": 8,
+          "name": "Bradley Cooper",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+        },
+        Object {
+          "description": "Ator, Diretor, Produtor",
+          "id": 9,
+          "name": "Brad Pitt",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+        },
+        Object {
+          "description": "Ator",
+          "id": 10,
+          "name": "Bradley Cooper",
+          "picture": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Brad Pitt
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator, Diretor, Produtor
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Bradley Cooper
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Brad Pitt
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator, Diretor, Produtor
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Bradley Cooper
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Brad Pitt
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator, Diretor, Produtor
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Bradley Cooper
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Brad Pitt
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator, Diretor, Produtor
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Bradley Cooper
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1582/kc3M04QQAuZ9woUvH3Ju5T7ZqG5.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Brad Pitt
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator, Diretor, Produtor
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CED0CE",
+              "height": 1,
+              "marginLeft": "18%",
+              "width": "78%",
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          avatar={
+            Object {
+              "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+            }
+          }
+          disabled={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomColor": "#bbb",
+                "borderBottomWidth": 1,
+                "paddingBottom": 10,
+                "paddingRight": 10,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+              },
+              false,
+              false,
+            ]
+          }
+          underlayColor="white"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "marginLeft": 10,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 34,
+                    "paddingBottom": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                    "width": 34,
+                  },
+                  Object {
+                    "borderRadius": 17,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                      "backgroundColor": "rgba(0,0,0,0.2)",
+                      "bottom": 0,
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "uri": "https://s3.dualstack.sa-east-1.amazonaws.com/materate-files/1252/2daC5DeXqwkFND0xxutbnSVKN6c.jpg",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "height": 34,
+                        "width": 34,
+                      },
+                      Object {
+                        "borderRadius": 17,
+                      },
+                      Object {
+                        "borderRadius": 40,
+                        "height": 45,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#43484d",
+                          "fontSize": 17.5,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "color": "#000",
+                          "fontWeight": "400",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                          "paddingTop": 5,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Bradley Cooper
+                </Text>
+              </View>
+              <View>
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {},
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 15,
+                          "fontWeight": "600",
+                          "marginTop": 1,
+                        },
+                        Object {
+                          "marginLeft": 10,
+                        },
+                        Object {
+                          "fontWeight": "normal",
+                          "paddingBottom": 0,
+                          "paddingLeft": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Ator
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

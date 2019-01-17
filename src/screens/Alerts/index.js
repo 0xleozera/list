@@ -9,10 +9,14 @@ import styles from "./styles";
 import debounce from "../../utils/debounce";
 
 class AlertsScreen extends Component {
-  state = {
-    data: ActorsData,
-    value: ""
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: ActorsData,
+      value: ""
+    };
+  }
 
   getIcon = () => (Platform.OS === "ios" ? "ios-search" : "md-search");
 
